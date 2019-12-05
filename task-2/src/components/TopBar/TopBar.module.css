@@ -1,0 +1,20 @@
+.TopBar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.TopBar button{
+  flex-grow: 1;
+}
+
+
+.TopBar div{
+  width: 100px;
+  margin-right: 10px;
+}

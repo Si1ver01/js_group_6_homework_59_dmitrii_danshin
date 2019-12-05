@@ -1,0 +1,10 @@
+.WatchList{
+  flex-grow: 1;
+  border: 1px solid #0099CC;
+  border-radius: 5px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+
+}

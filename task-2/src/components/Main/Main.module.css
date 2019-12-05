@@ -1,0 +1,6 @@
+.Main{
+  flex-grow: 1;
+  margin: 5px;
+  border-radius: 5px;
+  overflow-y: scroll;
+}

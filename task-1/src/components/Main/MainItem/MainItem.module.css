@@ -1,0 +1,15 @@
+.MainItem{
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.MainItem div{
+  flex-grow: 1;
+  margin-right: 5px;
+}
+
+.MainItem button{
+  background-color: #e53935;
+  color:#fff;
+  border: 1px solid #ef5350;
+}
