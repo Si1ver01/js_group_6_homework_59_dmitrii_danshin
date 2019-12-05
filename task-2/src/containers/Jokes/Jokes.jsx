@@ -30,7 +30,7 @@ export default class Jokes extends Component {
   };
 
   inputHandler = value => {
-    this.setState({ quantity: value ? parseInt(value) : '' });
+    this.setState({ quantity: value ? Math.abs(parseInt(value)) : '' });
   };
 
   render() {
