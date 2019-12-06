@@ -32,8 +32,11 @@ export default class WatchList extends Component {
     this.setState(prevState => prevState.inputList.splice(index, 1));
   };
 
-  render() {
+  componentDidUpdate(){
     localStorage.setItem("list", this.state.inputList);
+  }
+
+  render() {
     return (
       <div className={classes.WatchList}>
         <TopBar
